@@ -3,70 +3,188 @@ body {
     width: 1400px;
     margin: 0 auto;
 }
-    
-.description, .about {
+
+.description,
+.about,
+.projects {
     margin: 0 125px 150px;
+    color: #121212;
 }
 
-.description-title {
+.description h1 {
     width: 956px;
     min-height: 120px;
     margin-bottom: 30px;
     font-size: 60px;
     line-height: 60px;
-    font-weight: 400;
     letter-spacing: -0.03em;
     color: #121212;
 }
 
-.description-pic {
-    display: flex;
-    width: auto;
+.background-image {
+    position: relative;
     height: 500px;
-    background: url(../resourses/Rectangle.jpg);
+    background: url(../resourses/main_Rectangle.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    align-items: end;
 }
 
-.description-text {
+.description p {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
     font-size: 20px;
     line-height: 27px;
-    font-weight: 400;
     color: #FFFFFF;
     letter-spacing: -0.03em;
     max-width: 430px;
     min-height: 81px;
-    margin: 40px;
 }
 
-.about-header {
+.about h2,
+.projects h2,
+.services h2,
+.contact h2 {
     font-size: 18px;
     line-height: 25px;
-    font-weight: 400;
     margin-bottom: 30px;
     text-transform: uppercase;
+    letter-spacing: -0.03em;
 }
 
-.about-description {
+.about p {
     font-size: 45px;
     line-height: 61px;
-    font-weight: 400;
     width: 1048px;
     margin: 0 0 30px 3px;
     letter-spacing: -0.03em;
 }
 
-.about-btn {
+.about a {
     display: block;
     width: 255px;
     height: 67px;
     background: #AD1818;
     border-radius: 5px;
     font-size: 20px;
-    font-weight: 400;
+    letter-spacing: -0.03em;
     line-height: 67px;
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.project-block {
+    margin-bottom: 90px;
+}
+
+.project-block img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.project-block p {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    margin-bottom: 15px;
+}
+
+.project-block a {
+    font-size: 20px;
+    line-height: 27px;
+    color: #AD1818;
+    letter-spacing: -0.03em;
+}
+
+.projects-btn {
+    width: 100%;
+    height: 153px;
+    font-size: 30px;
+   letter-spacing: -0.03em;
+    color: #AD1818;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+}
+
+.projects-btn:hover {
+    color: #FFFFFF;
+    background-color: #AD1818;
+}
+
+.services {
+    width: 1400px;
+    background: #121212;
+    color: #FFFFFF;
+
+}
+
+.services h2 {
+    padding: 151px 0 4px 127px;
+}
+
+.service-block {
+    padding: 0 125px 60px;
+}
+
+.service-block p {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    padding-top: 15px;
+}
+
+.service-block:last-child {
+    padding-bottom: 206px;
+}
+
+.service-footer {
+    position: relative;
+    height: 717px;
+    background: url(../resourses/service_footer.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+
+.service-footer p {
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    max-width: 443px;
+    min-height: 82px;
+}
+
+.contact {
+    margin: 0 125px 160px;
+    color: #121212;
+}
+
+.contact h2 {
+    margin: 13px 0 32px;
+}
+
+.contact p {
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.contact-underline {
+    width: 406px;
+    margin-top: 10px;
+    border: 2px solid #121212;
+    opacity: 0.5;
 }
