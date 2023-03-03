@@ -24,7 +24,7 @@ body {
 .background-image {
     position: relative;
     height: 500px;
-    background: url(../resourses/main_Rectangle.jpg);
+    background: url(../resourses/main_image.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -106,7 +106,8 @@ body {
     color: #AD1818;
     border: 1px solid #AD1818;
     border-radius: 5px;
-    background: #F5F5F5;
+    background: #FFF;
+    padding: 0;
 }
 
 .projects-btn:hover {
