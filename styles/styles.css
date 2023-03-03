@@ -106,6 +106,7 @@ body {
     color: #AD1818;
     border: 1px solid #AD1818;
     border-radius: 5px;
+    background: #F5F5F5;
 }
 
 .projects-btn:hover {
