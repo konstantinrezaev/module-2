@@ -107,6 +107,7 @@ body {
     border: 1px solid #AD1818;
     border-radius: 5px;
     background: #FFF;
+    padding: 0;
 }
 
 .projects-btn:hover {
