@@ -259,7 +259,7 @@ div {
     width: 13px;
     height: 22px;
     top: -35px;
-    background-image: url(/resourses/mobile_pic.jpg);
+    background-image: url(../resourses/mobile_pic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
