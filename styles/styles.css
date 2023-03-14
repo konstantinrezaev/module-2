@@ -316,3 +316,7 @@ div {
     opacity: 0.5;
     color: #FFF;
 }
+
+.footer__link:hover {
+    opacity: 0.5;
+}
