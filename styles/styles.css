@@ -83,7 +83,7 @@ div {
 .description-background-image {
     position: relative;
     height: 500px;
-    background: url(../resourses/main_image.jpg);
+    background: url(../resources/main_image.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -212,7 +212,7 @@ div {
     position: relative;
     height: 717px;
     min-width: 100%;
-    background: url(../resourses/service_footer.jpg);
+    background: url(../resources/service_footer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -247,7 +247,7 @@ div {
     width: 13px;
     height: 22px;
     top: -35px;
-    background-image: url(../resourses/mobile_pic.jpg);
+    background-image: url(../resources/mobile_pic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
