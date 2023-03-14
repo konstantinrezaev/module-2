@@ -22,15 +22,10 @@ div {
     margin: 0 auto;
 }
 
-/* .logo-link {
-    display: inline-block;
-} */
-
 .logo {
-    /* display: block; */
     display: inline-block;
     width: 126px;
-    margin-right: 558px;
+    margin-right: 557px;
 }
 
 .nav {
@@ -60,13 +55,6 @@ div {
 .nav-link:nth-child(3) {
     margin-right: 56.5px;
 }
-
-/* .nav-link_active {
-    text-decoration: none;
-    border-bottom: 1px solid #121212;
-    padding-bottom: 25px;
-    opacity: 0.5;
-} */
 
 .nav-link:hover {
     display: inline-block;text-decoration: none;
@@ -259,10 +247,9 @@ div {
     width: 13px;
     height: 22px;
     top: -35px;
-    background-image: url(/resourses/mobile_pic.jpg);
+    background-image: url(../resourses/mobile_pic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50%;
 }
 
 .contacts h2 {
@@ -287,20 +274,17 @@ div {
 }
 
 .footer {
-    min-width: 100%;
-    height: 229px;
+    padding: 60px 0 30px;
     background-color: #121212;
 }
 
 .footer-nav {
-    padding: 59px 0 87px;
-    width: 450px;
+    width: 460px;
     margin: 0 auto;
 }
 
 .footer__link  {
     display: inline-block;
-    height: 25px;
     line-height: 25px;
     font-size: 18px;
     text-transform: uppercase;
@@ -311,11 +295,8 @@ div {
     color: #FFF;
 }
 
-.footer__link:nth-child(1) {
-    padding-right: 45px;
-}
-
 .footer__link:nth-child(2) {
+    padding-left: 51px;
     padding-right: 53px;
 }
 
@@ -323,14 +304,15 @@ div {
     padding-left: 52px;
 }
 
+.footer__link:hover {
+    opacity: 0.5;
+}
+
 .footer p {
-    color: #FFF;
+    margin: 87px 0 0 5px;
     text-align: center;
     font-size: 20px;
     line-height: 27px;
     opacity: 0.5;
-}
-
-.footer__link:hover {
-    opacity: 0.5;
+    color: #FFF;
 }
