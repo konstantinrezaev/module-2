@@ -4,8 +4,9 @@ html {
 
 body {
   font-family: "Manrope", sans-serif;
-  min-width: 1400px;
   margin: 0 auto;
+  /* min-width: 1400px;
+  margin: 0 auto; */
 }
 
 h1,
@@ -64,18 +65,23 @@ div {
   opacity: 0.5;
 }
 
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
 .description,
 .about,
 .projects,
 .services-container {
-  width: 1150px;
-  margin: 0 auto 150px;
-  color: #121212;
+  width: 100%;
+  margin-bottom: 150px;
 }
 
 .description h1 {
   width: 956px;
-  min-height: 120px;
+  height: 120px;
+  margin-top: 128px;
   margin-bottom: 30px;
   font-size: 60px;
   line-height: 60px;
@@ -83,6 +89,7 @@ div {
 
 .description-background-image {
   position: relative;
+  width: 100%;
   height: 500px;
   background: url(../resources/main_image.jpg);
   background-size: contain;
@@ -320,4 +327,164 @@ div {
 
 .footer__link:hover {
   opacity: 0.5;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 128px 15px 103px;
+  }
+
+  .description {
+    margin-bottom: 120px;
+  }
+
+  .description h1 {
+    width: 802px;
+    font-size: 50px;
+  }
+
+  .description-background-image {
+    width: 100%;
+    background: url(../resources/main_image_tablet.png);
+    background-size: cover;
+    background-position: 50% 90%;
+  }
+
+  .description p {
+    bottom: 30px;
+  }
+
+  .about {
+    margin-bottom: 120px;
+  }
+
+  .about p {
+    font-size: 35px;
+    line-height: 48px;
+    width: 690px;
+    margin: 0 0 30px 5px;
+  }
+
+  .projects {
+    margin-bottom: 0;
+  }
+
+  .project-block {
+    margin-bottom: 80px;
+  }
+
+  .project-block:last-child {
+    margin-bottom: 102px;
+  }
+
+  .project-block img {
+    margin-bottom: 15px;
+  }
+
+  .project-block p {
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 10px;
+  }
+
+  .project-block a {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 108px 13px 144px;
+  }
+
+  .description {
+    margin-bottom: 80px;
+  }
+
+  .description h1 {
+    width: 348px;
+    height: 95px;
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 25px;
+  }
+
+  .description-background-image {
+    width: 100%;
+    background: url(../resources/main_image_phone.png);
+    background-size: cover;
+    background-position: 50% 90%;
+  }
+
+  .description p {
+    left: 15px;
+    bottom: 15px;
+  }
+
+  .about {
+    margin-bottom: 80px;
+  }
+
+  .about h2 {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+
+  .about p {
+    font-size: 22px;
+    line-height: 30px;
+    width: 346px;
+    margin-bottom: 30px;
+  }
+
+  .about a {
+    width: 194px;
+    height: 51px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 51px;
+  }
+
+  .projects h2 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .project-block {
+    margin-bottom: 49px;
+  }
+
+  .project-block:last-child {
+    margin-bottom: 60px;
+  }
+
+  .project-block img {
+    margin-bottom: 20px;
+  }
+
+  .project-block p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 11px;
+  }
+
+  .project-block a {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .allProjects {
+    display: block;
+    height: 100px;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 100px;
+    color: #ad1818;
+    border: 1px solid #ad1818;
+    border-radius: 4px;
+  }
 }
