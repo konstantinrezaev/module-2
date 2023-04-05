@@ -1,0 +1,24 @@
+.gallery {
+  position: relative;
+  height: 717px;
+  min-width: 100%;
+  background: url(../resources/service_footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.galleryImg {
+  width: 1150px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.galleryText {
+  position: absolute;
+  top: 575px;
+  font-size: 30px;
+  line-height: 41px;
+  width: 443px;
+  color: #ffffff;
+}
