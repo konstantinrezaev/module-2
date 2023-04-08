@@ -27,7 +27,7 @@
 
 @media (max-width: 1199px) {
   .projects {
-    margin-bottom: 0;
+    margin-top: 120px;
   }
 
   .projectBlock {
@@ -54,9 +54,14 @@
 }
 
 @media (max-width: 767px) {
+  .projects {
+    margin-top: 80px;
+  }
+
   .projects h2 {
     font-size: 14px;
     line-height: 19px;
+    margin-bottom: 20px;
   }
 
   .projectBlock {

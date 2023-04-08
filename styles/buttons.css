@@ -1,0 +1,33 @@
+.allBtn {
+  display: block;
+  font-size: 30px;
+  padding: 56px 0;
+  text-align: center;
+  text-decoration: none;
+  color: #ad1818;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+}
+
+.allBtn:hover {
+  color: #ffffff;
+  background-color: #ad1818;
+}
+
+.allBtn_serviceBtn {
+  background: #ad1818;
+  color: #ffffff;
+}
+
+.allBtn_serviceBtn:hover {
+  background: #ffffff;
+  color: #ad1818;
+}
+
+@media (max-width: 767px) {
+  .allBtn {
+    font-size: 22px;
+    padding: 37px 0;
+    border-radius: 4px;
+  }
+}

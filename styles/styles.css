@@ -7,6 +7,7 @@
 @import "/styles/projects.css";
 @import "/styles/services.css";
 @import "/styles/reviews.css";
+@import "/styles/buttons.css";
 
 html {
   scroll-behavior: smooth;
@@ -45,22 +46,6 @@ h3 {
   margin: 0 auto;
 }
 
-.allProjects {
-  display: block;
-  font-size: 30px;
-  padding: 56px 0;
-  text-align: center;
-  text-decoration: none;
-  color: #ad1818;
-  border: 1px solid #ad1818;
-  border-radius: 5px;
-}
-
-.allProjects:hover {
-  color: #ffffff;
-  background-color: #ad1818;
-}
-
 @media (max-width: 1199px) {
   .container {
     width: 100%;
@@ -72,16 +57,5 @@ h3 {
   .container {
     width: 100%;
     padding: 61px 12px 144px;
-  }
-
-  .allProjects {
-    display: block;
-    font-size: 22px;
-    padding: 37px 0;
-    text-align: center;
-    text-decoration: none;
-    color: #ad1818;
-    border: 1px solid #ad1818;
-    border-radius: 4px;
   }
 }
