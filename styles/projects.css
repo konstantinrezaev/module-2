@@ -1,32 +1,23 @@
 .projects {
-  width: 100%;
   margin-top: 150px;
 }
 
-.projects h2 {
-  font-size: 18px;
-  line-height: 25px;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  width: 100%;
-}
-
-.project-block {
+.projectBlock {
   margin-bottom: 90px;
 }
 
-.project-block img {
+.projectBlock img {
   width: 100%;
   margin-bottom: 13px;
 }
 
-.project-block p {
+.projectBlock p {
   font-size: 30px;
   line-height: 41px;
   margin-bottom: 15px;
 }
 
-.project-block a {
+.projectBlock a {
   font-size: 20px;
   line-height: 27px;
   padding-left: 2px;
@@ -39,25 +30,25 @@
     margin-bottom: 0;
   }
 
-  .project-block {
+  .projectBlock {
     margin-bottom: 80px;
   }
 
-  .project-block:last-child {
+  .projectBlock:last-child {
     margin-bottom: 102px;
   }
 
-  .project-block img {
+  .projectBlock img {
     margin-bottom: 15px;
   }
 
-  .project-block p {
+  .projectBlock p {
     font-size: 25px;
     line-height: 34px;
     margin-bottom: 10px;
   }
 
-  .project-block a {
+  .projectBlock a {
     padding-left: 0px;
   }
 }
@@ -68,25 +59,25 @@
     line-height: 19px;
   }
 
-  .project-block {
+  .projectBlock {
     margin-bottom: 49px;
   }
 
-  .project-block:last-child {
+  .projectBlock:last-child {
     margin-bottom: 60px;
   }
 
-  .project-block img {
+  .projectBlock img {
     margin-bottom: 20px;
   }
 
-  .project-block p {
+  .projectBlock p {
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 11px;
   }
 
-  .project-block a {
+  .projectBlock a {
     font-size: 16px;
     line-height: 22px;
   }
