@@ -11,7 +11,7 @@
 }
 
 .servicesList {
-  margin-bottom: 106px;
+  margin-bottom: 96px;
   display: flex;
   flex-wrap: wrap;
   row-gap: 85px;
@@ -77,10 +77,10 @@
   }
 
   .servicesList {
-    margin-bottom: 80px;
+    margin-bottom: 87px;
     display: flex;
     flex-wrap: wrap;
-    row-gap: 80px;
+    row-gap: 85px;
   }
 
   .serviceBlock {
@@ -144,8 +144,8 @@
   }
 
   .servicesList {
-    margin-bottom: 60px;
-    gap: 60px;
+    gap: 65px;
+    margin-bottom: 67px;
   }
 
   .serviceBlock {

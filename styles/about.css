@@ -6,7 +6,7 @@
   font-size: 45px;
   line-height: 61px;
   width: 1048px;
-  margin: 0 0 30px 3px;
+  margin-bottom: 30px;
 }
 
 .about a {
@@ -63,6 +63,7 @@
 
   .about a {
     font-size: 16px;
+    line-height: 22px;
     padding: 14.5px 0;
     border-radius: 4px;
   }

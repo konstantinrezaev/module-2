@@ -22,15 +22,15 @@
   padding-top: 14px;
 }
 
-.reviewBlock:nth-child(2n + 1) {
-  max-width: 528px;
-}
-
-.reviewBlock:nth-child(2n) {
+.reviewBlock {
   max-width: 505px;
 }
 
-.reviewBlock:last-child:nth-child(2n + 1) {
+.reviewBlock:first-child {
+  max-width: 528px;
+}
+
+.reviewBlock:last-child {
   width: auto;
   max-width: 861px;
 }
@@ -64,15 +64,11 @@
     padding-top: 25px;
   }
 
-  .reviewBlock:nth-child(2n + 1) {
+  .reviewBlock {
     width: none;
   }
 
-  .reviewBlock:nth-child(2n) {
-    width: none;
-  }
-
-  .reviewBlock:last-child:nth-child(2n + 1) {
+  .reviewBlock:last-child {
     width: auto;
     max-width: 694px;
   }
@@ -87,11 +83,12 @@
   .reviews h2 {
     font-size: 14px;
     line-height: 19px;
+    margin-bottom: 22px;
   }
 
   .reviewsList {
     display: flex;
-    row-gap: 80px;
+    row-gap: 76px;
   }
 
   .reviewBlock {
@@ -109,15 +106,7 @@
     padding-top: 10px;
   }
 
-  .reviewBlock:nth-child(2n + 1) {
-    max-width: 100%;
-  }
-
-  .reviewBlock:nth-child(2n) {
-    max-width: 100%;
-  }
-
-  .reviewBlock:last-child:nth-child(2n + 1) {
+  .reviewBlock {
     max-width: 100%;
   }
 }

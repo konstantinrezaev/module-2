@@ -36,6 +36,7 @@
     background: url(../resources/main_image_tablet.png);
     background-size: cover;
     background-position: 50% 90%;
+    height: 400px;
   }
 
   .description p {
@@ -52,6 +53,7 @@
     font-size: 30px;
     line-height: 32px;
     margin-bottom: 25px;
+    width: 335px;
   }
 
   .descriptionBackgroundImage {
@@ -67,5 +69,6 @@
     bottom: 15px;
     font-size: 16px;
     line-height: 22px;
+    width: 312px;
   }
 }
