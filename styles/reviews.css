@@ -9,7 +9,6 @@
   flex-wrap: wrap;
   row-gap: 80px;
   column-gap: 50px;
-  justify-content: start;
 }
 
 .reviewBlock {
@@ -22,17 +21,8 @@
   padding-top: 14px;
 }
 
-.reviewBlock {
-  max-width: 505px;
-}
-
-.reviewBlock:first-child {
-  max-width: 528px;
-}
-
-.reviewBlock:last-child {
-  width: auto;
-  max-width: 861px;
+.reviewBlock:last-child:nth-child(2n + 1) {
+  width: 75%;
 }
 
 @media (max-width: 1199px) {
@@ -42,11 +32,7 @@
   }
 
   .reviewsList {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 80px;
     column-gap: 10px;
-    justify-content: start;
   }
 
   .reviewBlock {
@@ -63,20 +49,10 @@
     line-height: 27px;
     padding-top: 25px;
   }
-
-  .reviewBlock {
-    width: none;
-  }
-
-  .reviewBlock:last-child {
-    width: auto;
-    max-width: 694px;
-  }
 }
 
 @media (max-width: 767px) {
   .reviews {
-    width: 100%;
     padding: 80px 13px;
   }
 
@@ -87,7 +63,6 @@
   }
 
   .reviewsList {
-    display: flex;
     row-gap: 76px;
   }
 
@@ -106,7 +81,7 @@
     padding-top: 10px;
   }
 
-  .reviewBlock {
-    max-width: 100%;
+  .reviewBlock:last-child:nth-child(2n + 1) {
+    width: 100%;
   }
 }

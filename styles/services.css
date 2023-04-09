@@ -15,7 +15,7 @@
   display: flex;
   flex-wrap: wrap;
   row-gap: 85px;
-  justify-content: space-between;
+  column-gap: 10px;
 }
 
 .serviceBlock {
@@ -30,26 +30,18 @@
 
 .plan {
   background: url(../resources/service_plan.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .palette {
   background: url(../resources/service_palette.png);
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .ruler {
   background: url(../resources/service_ruler.png);
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .storage {
   background: url(../resources/service_storage.png);
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .serviceImg p {
@@ -73,23 +65,13 @@
   .servicesContainer {
     width: 100%;
     padding: 151px 15px 120px;
-    margin: 0 auto;
   }
 
   .servicesList {
     margin-bottom: 87px;
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 85px;
-  }
-
-  .serviceBlock {
-    width: calc(50% - 5px);
   }
 
   .serviceImg {
-    position: relative;
-    width: 100%;
     height: 315px;
     margin-bottom: 15px;
   }
@@ -97,25 +79,21 @@
   .plan {
     background: url(../resources/service_plan_tablet.png);
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .palette {
     background: url(../resources/service_palette_tablet.png);
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .ruler {
     background: url(../resources/service_ruler_tablet.png);
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .storage {
     background: url(../resources/service_storage_tablet.png);
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .serviceImg p {
@@ -132,9 +110,7 @@
 
 @media (max-width: 767px) {
   .servicesContainer {
-    width: 100%;
     padding: 80px 12px;
-    margin: 0 auto;
   }
 
   .services h2 {
@@ -149,7 +125,6 @@
   }
 
   .serviceBlock {
-    position: relative;
     width: 100%;
   }
 
@@ -161,25 +136,21 @@
   .plan {
     background: url(../resources/service_plan_phone.png);
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .palette {
     background: url(../resources/service_palette_phone.png);
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .ruler {
     background: url(../resources/service_ruler_phone.png);
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .storage {
     background: url(../resources/service_storage_phone.png);
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .serviceImg p {

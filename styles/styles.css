@@ -55,7 +55,6 @@ h3 {
 
 @media (max-width: 767px) {
   .container {
-    width: 100%;
     padding: 61px 12px 144px;
   }
 }
