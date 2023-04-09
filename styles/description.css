@@ -56,6 +56,7 @@
 
   .descriptionBackgroundImage {
     width: 100%;
+    height: 304px;
     background: url(../resources/main_image_phone.png);
     background-size: cover;
     background-position: 50% 90%;
