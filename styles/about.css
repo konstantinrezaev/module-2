@@ -1,55 +1,41 @@
-.about {
-  margin-top: 150px;
-}
-
-.about p {
+.aboutText {
   font-size: 45px;
   line-height: 61px;
   width: 1048px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 29px;
 }
 
-.about a {
+.aboutBtn {
   display: inline-block;
   font-size: 20px;
   line-height: 27px;
   padding: 20px 40px;
   background: #ad1818;
   border-radius: 5px;
+  border: 1px solid #ad1818;
   color: #ffffff;
   text-decoration: none;
+  cursor: pointer;
 }
 
-.about a:hover {
+.aboutBtn:hover {
   color: #ad1818;
   background-color: #ffffff;
   border: 1px solid #ad1818;
 }
 
 @media (max-width: 1199px) {
-  .about {
-    margin-top: 120px;
-  }
-
-  .about p {
+  .aboutText {
     font-size: 35px;
     line-height: 48px;
     width: 690px;
     margin: 0 0 30px 5px;
   }
-
-  .about a {
-    width: 100%;
-    text-align: center;
-  }
 }
 
 @media (max-width: 767px) {
-  .about {
-    margin-top: 80px;
-  }
-
-  .about h2 {
+  .aboutText {
     font-size: 14px;
     line-height: 19px;
     margin-bottom: 20px;
@@ -62,6 +48,7 @@
   }
 
   .about a {
+    width: 100%;
     font-size: 16px;
     line-height: 22px;
     padding: 14.5px 0;

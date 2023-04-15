@@ -1,9 +1,3 @@
-.reviews {
-  width: 1150px;
-  padding: 150px 0 157px;
-  margin: 0 auto;
-}
-
 .reviewsList {
   display: flex;
   flex-wrap: wrap;

@@ -1,6 +1,6 @@
 @import "../styles/about.css";
 @import "../styles/contacts.css";
-@import "../styles/description.css";
+@import "../styles/intro.css";
 @import "../styles/footer.css";
 @import "../styles/gallery.css";
 @import "../styles/header.css";
@@ -8,6 +8,7 @@
 @import "../styles/services.css";
 @import "../styles/reviews.css";
 @import "../styles/buttons.css";
+@import "../styles/gallery.css";
 
 html {
   scroll-behavior: smooth;
@@ -15,7 +16,7 @@ html {
 
 body {
   font-family: "Manrope", sans-serif;
-  font-weight: 400;
+  width: 100%;
 }
 
 h1,
@@ -27,34 +28,81 @@ div {
   letter-spacing: -0.03em;
 }
 
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+}
+
 h2 {
   font-size: 18px;
+  font-weight: 400;
   line-height: 25px;
-  margin-bottom: 30px;
   text-transform: uppercase;
-  width: 100%;
+  text-align: left;
 }
 
 h3 {
-  font-size: 45px;
-  line-height: 61px;
+  font-size: 30px;
+  line-height: 41px;
 }
 
 .container {
-  padding: 70px 0 150px;
-  width: 1150px;
   margin: 0 auto;
+  width: 1150px;
+  background: #ffffff;
 }
 
 @media (max-width: 1199px) {
   .container {
     width: 100%;
-    padding: 74px 15px 103px;
+    padding-left: 17px;
+    padding-right: 15px;
+  }
+
+  section {
+    padding-bottom: 120px;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 25px;
   }
 }
 
 @media (max-width: 767px) {
   .container {
-    padding: 61px 12px 144px;
+    padding-left: 13px;
+    padding-right: 12px;
   }
+
+  section {
+    padding-bottom: 80px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  h2 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+.containerBlack {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+section {
+  margin: auto;
+  padding-bottom: 150px;
 }

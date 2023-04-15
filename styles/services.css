@@ -1,20 +1,21 @@
-.services {
+.containerBlack {
   background-color: #121212;
+  width: 100%;
   color: #ffffff;
-  background-size: cover;
 }
 
 .servicesContainer {
   width: 1150px;
-  padding: 151px 0 150px;
-  margin: 0 auto;
+  margin: auto;
+  padding-top: 150px;
 }
 
 .servicesList {
-  margin-bottom: 96px;
+  padding-top: 30px;
+  padding-bottom: 104px;
   display: flex;
   flex-wrap: wrap;
-  row-gap: 85px;
+  row-gap: 80px;
   column-gap: 10px;
 }
 
@@ -24,41 +25,44 @@
 
 .serviceImg {
   position: relative;
-  height: 389px;
-  margin-bottom: 25px;
+  height: 388px;
 }
 
 .plan {
   background: url(../resources/service_plan.png);
+  background-size: cover;
 }
 
 .palette {
   background: url(../resources/service_palette.png);
+  background-size: cover;
 }
 
 .ruler {
   background: url(../resources/service_ruler.png);
+  background-size: cover;
 }
 
 .storage {
   background: url(../resources/service_storage.png);
+  background-size: cover;
 }
 
 .serviceImg p {
   position: absolute;
   left: 30px;
-  top: 31px;
-  font-size: 20px;
-  line-height: 27px;
+  top: 32px;
+  font-size: 22px;
+  line-height: 30px;
   color: #ffffff;
   padding: 5px 20px;
   background: #ad1818;
   border-radius: 5px;
 }
 
-.serviceText {
-  font-size: 30px;
-  line-height: 41px;
+.serviceBlock h3 {
+  padding-left: 3px;
+  padding-top: 25px;
 }
 
 @media (max-width: 1199px) {

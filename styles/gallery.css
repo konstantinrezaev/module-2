@@ -1,14 +1,14 @@
-.gallery {
+.galleryContainer {
   position: relative;
   height: 717px;
-  min-width: 100%;
+  width: 100%;
   background: url(../resources/service_footer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
 }
 
-.galleryImg {
+.gallerySlides {
   width: 1150px;
   margin: 0 auto;
   position: relative;
@@ -21,4 +21,14 @@
   line-height: 41px;
   width: 443px;
   color: #ffffff;
+}
+
+.galleryControls {
+  position: absolute;
+  bottom: 50%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
 }
