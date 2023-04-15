@@ -24,11 +24,14 @@
   color: #ad1818;
 }
 
+@media (max-width: 1199px) {
+}
+
 @media (max-width: 767px) {
   .allBtn {
     font-size: 22px;
     line-height: 30px;
-    padding: 35px 0;
+    padding: 36px 0 33px;
     border-radius: 4px;
   }
 }

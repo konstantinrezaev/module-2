@@ -20,15 +20,20 @@
 
 @media (max-width: 1199px) {
   .projectBlock {
-    margin-bottom: 76px;
-  }
-
-  .projectBlock:last-child {
-    margin-bottom: 102px;
+    padding-bottom: 80px;
   }
 
   .projectBlock img {
-    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .projectBlock:last-child {
+    padding-bottom: 100px;
+  }
+
+  .projectBlock h3 {
+    padding-top: 15px;
+    padding-bottom: 8px;
   }
 
   .projectBlock p {
@@ -43,22 +48,21 @@
 }
 
 @media (max-width: 767px) {
-  .projects h2 {
-    font-size: 14px;
-    line-height: 19px;
-    margin-bottom: 20px;
+  .projects {
+    padding-top: 20px;
   }
 
   .projectBlock {
-    margin-bottom: 50px;
+    padding-bottom: 49px;
   }
 
   .projectBlock:last-child {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
   }
 
-  .projectBlock img {
-    margin-bottom: 16px;
+  .projectBlock h3 {
+    padding-top: 18px;
+    padding-bottom: 11px;
   }
 
   .projectBlock p {

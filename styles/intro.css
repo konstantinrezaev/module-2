@@ -1,11 +1,11 @@
 .introText {
   width: 956px;
   padding-top: 70px;
+  padding-bottom: 30px;
 }
 
 .introImage {
   position: relative;
-  margin-top: 30px;
   width: 100%;
   height: 500px;
   background: url(../resources/main_image.jpg);
@@ -28,6 +28,7 @@
   }
 
   .introImage {
+    height: 400px;
     background: url(../resources/main_image_tablet.png);
     background-size: cover;
     background-position: center;
@@ -42,7 +43,7 @@
   .introText {
     font-size: 30px;
     line-height: 32px;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
     width: 100%;
   }
 
@@ -65,5 +66,11 @@
     background: url(../resources/main_image_phone.png);
     background-size: cover;
     background-position: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .introText {
+    width: 337px;
   }
 }

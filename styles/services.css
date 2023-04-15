@@ -1,15 +1,3 @@
-.containerBlack {
-  background-color: #121212;
-  width: 100%;
-  color: #ffffff;
-}
-
-.servicesContainer {
-  width: 1150px;
-  margin: auto;
-  padding-top: 150px;
-}
-
 .servicesList {
   padding-top: 30px;
   padding-bottom: 104px;
@@ -21,11 +9,30 @@
 
 .serviceBlock {
   width: calc(50% - 5px);
+  position: relative;
 }
 
 .serviceImg {
-  position: relative;
   height: 388px;
+}
+
+.serviceImg p {
+  position: absolute;
+  left: 30px;
+  top: 32px;
+  font-size: 22px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 5px 20px;
+  background: #ad1818;
+  border-radius: 5px;
+}
+
+.serviceTitle {
+  font-size: 30px;
+  line-height: 41px;
+  padding-left: 3px;
+  padding-top: 25px;
 }
 
 .plan {
@@ -48,36 +55,28 @@
   background-size: cover;
 }
 
-.serviceImg p {
-  position: absolute;
-  left: 30px;
-  top: 32px;
-  font-size: 22px;
-  line-height: 30px;
-  color: #ffffff;
-  padding: 5px 20px;
-  background: #ad1818;
-  border-radius: 5px;
-}
-
-.serviceBlock h3 {
-  padding-left: 3px;
-  padding-top: 25px;
-}
-
 @media (max-width: 1199px) {
-  .servicesContainer {
-    width: 100%;
-    padding: 151px 15px 120px;
-  }
-
   .servicesList {
-    margin-bottom: 87px;
+    padding-bottom: 80px;
   }
 
   .serviceImg {
     height: 315px;
-    margin-bottom: 15px;
+  }
+
+  .serviceImg p {
+    font-size: 20px;
+    line-height: 27px;
+    left: 32px;
+    top: 32px;
+    padding: 7px 27px;
+  }
+
+  .serviceTitle {
+    font-size: 25px;
+    line-height: 34px;
+    padding-left: 0;
+    padding-top: 15px;
   }
 
   .plan {
@@ -99,33 +98,14 @@
     background: url(../resources/service_storage_tablet.png);
     background-size: cover;
   }
-
-  .serviceImg p {
-    left: 32px;
-    top: 32px;
-    padding: 7px 27px;
-  }
-
-  .serviceText {
-    font-size: 25px;
-    line-height: 34px;
-  }
 }
 
-@media (max-width: 767px) {
-  .servicesContainer {
-    padding: 80px 12px;
-  }
-
-  .services h2 {
-    font-size: 14px;
-    line-height: 19px;
-    margin-bottom: 20px;
-  }
-
+@media (max-width: 600px) {
   .servicesList {
-    gap: 65px;
-    margin-bottom: 67px;
+    flex-direction: column;
+    gap: 59px;
+    padding-top: 20px;
+    padding-bottom: 56px;
   }
 
   .serviceBlock {
@@ -134,7 +114,22 @@
 
   .serviceImg {
     height: 240px;
-    margin-bottom: 10px;
+  }
+
+  .serviceImg p {
+    left: 24px;
+    top: 23px;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 5px 24px;
+    border-radius: 4px;
+  }
+
+  .serviceTitle {
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 2px;
+    padding-top: 10px;
   }
 
   .plan {
@@ -155,19 +150,5 @@
   .storage {
     background: url(../resources/service_storage_phone.png);
     background-size: cover;
-  }
-
-  .serviceImg p {
-    left: 24px;
-    top: 24px;
-    font-size: 14px;
-    line-height: 19px;
-    padding: 5px 25px;
-    border-radius: 4px;
-  }
-
-  .serviceText {
-    font-size: 18px;
-    line-height: 25px;
   }
 }

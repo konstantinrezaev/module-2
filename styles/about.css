@@ -30,21 +30,17 @@
     font-size: 35px;
     line-height: 48px;
     width: 690px;
-    margin: 0 0 30px 5px;
+    padding-left: 3px;
   }
 }
 
 @media (max-width: 767px) {
   .aboutText {
-    font-size: 14px;
-    line-height: 19px;
-    margin-bottom: 20px;
-  }
-
-  .about p {
     font-size: 22px;
     line-height: 30px;
     width: 100%;
+    padding-top: 20px;
+    padding-left: 0;
   }
 
   .about a {
@@ -52,6 +48,13 @@
     font-size: 16px;
     line-height: 22px;
     padding: 14.5px 0;
+    border-radius: 4px;
+  }
+
+  .aboutBtn {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 13px 27px;
     border-radius: 4px;
   }
 }

@@ -1,81 +1,75 @@
 .reviewsList {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 80px;
   column-gap: 50px;
+  row-gap: 80px;
+  padding-top: 32px;
 }
 
 .reviewBlock {
   width: calc(50% - 25px);
 }
 
+.reviewTitle {
+  font-size: 45px;
+  line-height: 61px;
+  padding-bottom: 14px;
+}
+
 .reviewBlock p {
   font-size: 22px;
   line-height: 30px;
-  padding-top: 14px;
 }
 
-.reviewBlock:last-child:nth-child(2n + 1) {
+.reviewBlock:last-child:nth-child(odd) {
   width: 75%;
 }
 
 @media (max-width: 1199px) {
-  .reviews {
-    width: 100%;
-    padding: 117px 15px 120px;
-  }
-
   .reviewsList {
     column-gap: 10px;
+    row-gap: 80px;
   }
 
   .reviewBlock {
     width: calc(50% - 5px);
   }
 
-  .reviewBlock h3 {
+  .reviewTitle {
     font-size: 35px;
     line-height: 48px;
+    padding-bottom: 25px;
   }
 
   .reviewBlock p {
     font-size: 20px;
     line-height: 27px;
-    padding-top: 25px;
   }
 }
 
 @media (max-width: 767px) {
-  .reviews {
-    padding: 80px 13px;
-  }
-
-  .reviews h2 {
-    font-size: 14px;
-    line-height: 19px;
-    margin-bottom: 22px;
-  }
-
   .reviewsList {
-    row-gap: 76px;
+    flex-direction: column;
+    gap: 76px;
+    padding-top: 23px;
   }
 
   .reviewBlock {
     width: 100%;
   }
 
-  .reviewBlock h3 {
+  .reviewTitle {
     font-size: 25px;
     line-height: 34px;
+    padding-bottom: 10px;
   }
 
   .reviewBlock p {
     font-size: 16px;
     line-height: 22px;
-    padding-top: 10px;
   }
 
-  .reviewBlock:last-child:nth-child(2n + 1) {
+  .reviewBlock:last-child:nth-child(odd) {
     width: 100%;
   }
 }
