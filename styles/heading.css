@@ -46,3 +46,8 @@ h3 {
     line-height: 25px;
   }
 }
+
+@media (max-width: 500px) {
+  h1 {
+  }
+}

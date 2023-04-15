@@ -67,9 +67,7 @@
     background-size: cover;
     background-position: center;
   }
-}
 
-@media (max-width: 375px) {
   .introText {
     width: 337px;
   }
