@@ -42,3 +42,70 @@
 .mail:hover {
   opacity: 0.5;
 }
+
+@media (max-width: 1199px) {
+  .contacts {
+    padding-top: 74px;
+    gap: 117px;
+  }
+
+  .tel,
+  .mail {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts {
+    flex-direction: column;
+    padding-top: 58px;
+    gap: 58px;
+  }
+
+  .contactTel:before {
+    width: 10px;
+    height: 17px;
+    background-size: cover;
+    top: 21px;
+  }
+
+  .contactMail:before {
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+    top: 123px;
+  }
+
+  .tel,
+  .mail {
+    font-size: 35px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 315px) {
+  .contacts {
+    padding-top: 35px;
+    gap: 35px;
+  }
+
+  .contactTel:before {
+    width: 10px;
+    height: 17px;
+    background-size: cover;
+    top: 10px;
+  }
+
+  .contactMail:before {
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+    top: 75px;
+  }
+
+  .tel,
+  .mail {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
