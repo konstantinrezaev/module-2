@@ -1,34 +1,156 @@
-.galleryContainer {
-  position: relative;
-  height: 717px;
-  width: 100%;
-  background: url(../resources/service_footer.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50%;
-}
-
-.gallerySlides {
-  width: 1150px;
-  margin: 0 auto;
+.gallery {
   position: relative;
 }
 
-.galleryText {
+.galleryTitleWrapper {
   position: absolute;
-  top: 575px;
-  font-size: 30px;
-  line-height: 41px;
-  width: 443px;
+  top: 67px;
+  width: 100%;
+  z-index: 100;
+}
+
+.galleryTitle {
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
   color: #ffffff;
 }
 
-.galleryControls {
+.gallerySlides {
+  position: relative;
+  height: 717px;
+}
+
+.gallerySlide {
   position: absolute;
-  bottom: 50%;
-  display: flex;
+  top: 0;
+  left: 0;
+  height: 100%;
   width: 100%;
-  justify-content: space-between;
-  padding-left: 30px;
-  padding-right: 30px;
+  opacity: 0;
+}
+
+.gallerySlide_active {
+  opacity: 1;
+}
+
+.galleryImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.galleryTextWrapper {
+  position: absolute;
+  top: 575px;
+  width: 100%;
+}
+
+.galleryText {
+  font-size: 30px;
+  line-height: 41px;
+  max-width: 429px;
+  color: #ffffff;
+}
+
+.galleryControlsWrapper {
+  position: absolute;
+  top: 518px;
+  width: 100%;
+  z-index: 100;
+}
+
+.galleryControls {
+  display: flex;
+}
+
+.galleryControlPrev,
+.galleryControlNext {
+  border: none;
+  width: 20px;
+  height: 34px;
+  background: url(../resources/gallery_control_arrow.svg) no-repeat;
+}
+
+.galleryControlPrev {
+  margin-right: 34px;
+}
+
+.galleryControlNext {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.galleryControlPrev:hover,
+.galleryControlNext:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+  .galleryTitleWrapper {
+    top: 80px;
+  }
+
+  .galleryTitle {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .gallerySlides {
+    height: 536px;
+  }
+
+  .galleryTextWrapper {
+    top: 388px;
+  }
+
+  .galleryText {
+    font-size: 25px;
+    line-height: 34px;
+    max-width: 357px;
+  }
+
+  .galleryControlsWrapper {
+    top: 347px;
+  }
+}
+
+@media (max-width: 767px) {
+  .galleryTitleWrapper {
+    top: 61px;
+  }
+
+  .galleryTitle {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .gallerySlides {
+    height: 408px;
+  }
+
+  .galleryTextWrapper {
+    top: 296px;
+  }
+
+  .galleryText {
+    font-size: 19px;
+    line-height: 26px;
+    max-width: 271px;
+  }
+
+  .galleryControlsWrapper {
+    top: 47%;
+  }
+
+  .galleryControls {
+    justify-content: space-between;
+  }
+
+  .galleryControlPrev,
+  .galleryControlNext {
+    width: 15px;
+    height: 25px;
+    background: url(../resources/gallery_control_arrow_mobile.svg) no-repeat;
+  }
 }

@@ -1,13 +1,17 @@
+.servicesTitle {
+  padding-top: 151px;
+}
+
 .servicesList {
   padding-top: 30px;
-  padding-bottom: 104px;
+  padding-bottom: 105px;
   display: flex;
   flex-wrap: wrap;
   row-gap: 80px;
   column-gap: 10px;
 }
 
-.serviceBlock {
+.serviceItem {
   width: calc(50% - 5px);
   position: relative;
 }
@@ -101,6 +105,10 @@
 }
 
 @media (max-width: 500px) {
+  .servicesTitle {
+    padding-top: 80px;
+  }
+
   .servicesList {
     flex-direction: column;
     gap: 59px;
@@ -108,7 +116,7 @@
     padding-bottom: 56px;
   }
 
-  .serviceBlock {
+  .serviceItem {
     width: 100%;
   }
 
@@ -133,22 +141,22 @@
   }
 
   .plan {
-    background: url(../resources/service_plan_phone.png);
+    background: url(../resources/service_plan_mobile.png);
     background-size: cover;
   }
 
   .palette {
-    background: url(../resources/service_palette_phone.png);
+    background: url(../resources/service_palette_mobile.png);
     background-size: cover;
   }
 
   .ruler {
-    background: url(../resources/service_ruler_phone.png);
+    background: url(../resources/service_ruler_mobile.png);
     background-size: cover;
   }
 
   .storage {
-    background: url(../resources/service_storage_phone.png);
+    background: url(../resources/service_storage_mobile.png);
     background-size: cover;
   }
 }

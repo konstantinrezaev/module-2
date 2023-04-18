@@ -1,5 +1,5 @@
 .introText {
-  width: 956px;
+  max-width: 956px;
   padding-top: 70px;
   padding-bottom: 30px;
 }
@@ -11,7 +11,7 @@
   background: url(../resources/main_image.jpg);
 }
 
-.introImage_text {
+.introImageText {
   position: absolute;
   left: 40px;
   bottom: 40px;
@@ -23,7 +23,8 @@
 
 @media (max-width: 1199px) {
   .introText {
-    width: 802px;
+    padding-top: 74px;
+    max-width: 802px;
     font-size: 50px;
   }
 
@@ -34,7 +35,7 @@
     background-position: center;
   }
 
-  .introImage_text {
+  .introImageText {
     bottom: 30px;
   }
 }
@@ -43,6 +44,7 @@
   .introText {
     font-size: 30px;
     line-height: 32px;
+    padding-top: 61px;
     padding-bottom: 25px;
     width: 100%;
   }
@@ -52,23 +54,23 @@
     height: 304px;
   }
 
-  .introImage_text {
+  .introImageText {
     left: 15px;
     bottom: 15px;
     font-size: 16px;
     line-height: 22px;
-    width: 312px;
+    max-width: 312px;
   }
 }
 
 @media (max-width: 400px) {
   .introImage {
-    background: url(../resources/main_image_phone.png);
+    background: url(../resources/main_image_mobile.png);
     background-size: cover;
     background-position: center;
   }
 
   .introText {
-    width: 337px;
+    max-width: 337px;
   }
 }

@@ -42,18 +42,18 @@
     </header> -->
 
     <main>
-      <section>
+      <section class="sectionPaddBottom">
         <h1 class="introText">
           Современные и стильные интерьеры для комфортной жизни
         </h1>
         <div class="introImage">
-          <p class="introImage_text">
+          <p class="introImageText">
             Мы - команда квалифицированных дизайнеров и архитекторов,
             занимающихся разработкой и реализацией дизайн-проектов
           </p>
         </div>
       </section>
-      <section>
+      <section class="sectionPaddBottom">
         <h2 id="about">о нас</h2>
         <p class="aboutText">
           Студия основана в 2011 году. Полностью отдаемся проектированию и
@@ -65,12 +65,12 @@
       </section>
       <section>
         <h2 id="projects">Проекты</h2>
-        <ul class="projects">
-          <li class="projectBlock">
+        <ul class="projectsList">
+          <li class="projectItem">
             <picture>
               <source
                 media="(max-width: 500px)"
-                srcset="resources/project_red_sofa_phone.png"
+                srcset="resources/project_red_sofa_mobile.png"
               />
               <source
                 media="(max-width: 1199px)"
@@ -84,11 +84,11 @@
             <h3>ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
             <a href="/">Подробнее →</a>
           </li>
-          <li class="projectBlock">
+          <li class="projectItem">
             <picture>
               <source
                 media="(max-width: 500px)"
-                srcset="resources/project_coffee_table_phone.png"
+                srcset="resources/project_coffee_table_mobile.png"
               />
               <source
                 media="(max-width: 1199px)"
@@ -102,11 +102,11 @@
             <h3>ЖК НОРВЕЖСКИЙ ПАРК — 75 м² — 2023</h3>
             <a href="/">Подробнее →</a>
           </li>
-          <li class="projectBlock">
+          <li class="projectItem">
             <picture>
               <source
                 media="(max-width: 500px)"
-                srcset="resources/project_table_ladder_phone.png"
+                srcset="resources/project_table_ladder_mobile.png"
               />
               <source
                 media="(max-width: 1199px)"
@@ -122,32 +122,32 @@
           </li>
         </ul>
         <div class="projectsBtn">
-          <a class="allBtn" href="#projects">Смотреть все проекты</a>
+          <a class="allBtn" href="#gallery">Смотреть все проекты</a>
         </div>
       </section>
       <div class="containerBlack">
-        <section class="sectionLong">
-          <h2 id="services">Услуги</h2>
+        <section class="sectionPaddBottom">
+          <h2 class="servicesTitle" id="services">Услуги</h2>
           <ul class="servicesList">
-            <li class="serviceBlock">
+            <li class="serviceItem">
               <div class="serviceImg plan">
                 <p>от 2500₽/м²</p>
               </div>
               <div class="serviceTitle">Планировочное решение</div>
             </li>
-            <li class="serviceBlock">
+            <li class="serviceItem">
               <div class="serviceImg palette">
                 <p>от 3000₽/м²</p>
               </div>
               <div class="serviceTitle">Дизайн-проект</div>
             </li>
-            <li class="serviceBlock">
+            <li class="serviceItem">
               <div class="serviceImg ruler">
                 <p>от 30 000₽/мес</p>
               </div>
               <div class="serviceTitle">Авторский надзор</div>
             </li>
-            <li class="serviceBlock">
+            <li class="serviceItem">
               <div class="serviceImg storage">
                 <p>5% от стоимости</p>
               </div>
@@ -157,10 +157,10 @@
           <a href="#" class="allBtn allBtn_serviceBtn">Заказать услугу</a>
         </section>
       </div>
-      <section class="sectionLong">
+      <section class="sectionPaddTop sectionPaddBottom">
         <h2>отзывы</h2>
         <ul class="reviewsList">
-          <li class="reviewBlock">
+          <li class="reviewItem">
             <div class="reviewTitle">Ксения, проект 65 кв.м.</div>
             <p>
               Хочу искренне поблагодарить Вас за работу, проделанную на высоком
@@ -173,7 +173,7 @@
               создали в жизнь и поделиться с Вами результатом!
             </p>
           </li>
-          <li class="reviewBlock">
+          <li class="reviewItem">
             <div class="reviewTitle">Регина, проект 89 кв.м.</div>
             <p>
               Спасибо большое за такой классный проект! Все стильно, круто,
@@ -186,7 +186,7 @@
               друзьям и знакомым!
             </p>
           </li>
-          <li class="reviewBlock">
+          <li class="reviewItem">
             <div class="reviewTitle">Яна, проект 120 кв.м.</div>
             <p>
               Хотелось бы сказать большое спасибо за проделанную работу! В
@@ -203,41 +203,90 @@
           </li>
         </ul>
       </section>
-      <!-- <section class="gallery">
-          <div class="galleryContainer">
-            <div class="gallerySlides">
-              <div class="gallerySlide">
-                <div class="forestLandscape">
-                  <p class="galleryText">
-                    Проект двухкомнатной квартиры в ЖК Лесной Пейзаж
-                  </p>
-                </div>
-              </div>
-              <div class="gallerySlide">
-                <div class="lighthouse"></div>
-              </div>
-              <div class="gallerySlide">
-                <div class="privateHome"></div>
-              </div>
-              <div class="gallerySlide">
-                <div class="northWind"></div>
-              </div>
-            </div>
-            <div class="galleryControls">
-              <button class="galleryControlPrev"><</button>
-              <button class="galleryControlNext">></button>
+      <div class="gallery" id="gallery">
+        <div class="galleryTitleWrapper">
+          <section>
+            <p class="galleryTitle">галерея проектов</p>
+          </section>
+        </div>
+        <div class="gallerySlides">
+          <div class="gallerySlide gallerySlide_active">
+            <img
+              class="galleryImg"
+              src="/resources/gallery_forestLandscape.png"
+              alt=""
+            />
+            <div class="galleryTextWrapper">
+              <section>
+                <p class="galleryText">
+                  Проект двухкомнатной квартиры в ЖК Лесной Пейзаж
+                </p>
+              </section>
             </div>
           </div>
-        </section> -->
-      <!-- <section class="contacts" id="contacts">
-          <h2>Контакты</h2>
-          <div class="contact__tel">
+          <div class="gallerySlide">
+            <img
+              class="galleryImg"
+              src="/resources/gallery_lighthouse.png"
+              alt=""
+            />
+            <div class="galleryTextWrapper">
+              <section>
+                <p class="galleryText">Проект гостиной в ЖК Маяк</p>
+              </section>
+            </div>
+          </div>
+          <div class="gallerySlide">
+            <img
+              class="galleryImg"
+              src="/resources/gallery_privateHome.png"
+              alt=""
+            />
+            <div class="galleryTextWrapper">
+              <section>
+                <p class="galleryText">
+                  Визуализация кухни-гостиной в частном доме
+                </p>
+              </section>
+            </div>
+          </div>
+          <div class="gallerySlide">
+            <img
+              class="galleryImg"
+              src="/resources/gallery_northWind.png"
+              alt=""
+            />
+            <div class="galleryTextWrapper">
+              <section>
+                <p class="galleryText">
+                  Проект кухни в скандинавском стиле для ЖК Северный Ветер
+                </p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="galleryControlsWrapper">
+          <section>
+            <div class="galleryControls">
+              <button class="galleryControlPrev"></button>
+              <button class="galleryControlNext"></button>
+            </div>
+          </section>
+        </div>
+      </div>
+      <section class="sectionPaddTop sectionPaddBottom" id="contacts">
+        <h2>Контакты</h2>
+        <div class="contacts">
+          <div class="contactTel">
             <a class="tel" href="tel:+79358954535">+7 935&nbsp; 895-45-35</a>
           </div>
-          <div>
-            <a class="mail" href="mailto:hello@mail.com">hello@mail.com</a>
+          <div class="contactMail">
+            <a class="mail" target="_blank" href="https://t.me/konstantinrezaev"
+              >@Konstantin</a
+            >
           </div>
-        </section> -->
+        </div>
+      </section>
     </main>
 
     <!-- <footer class="footer">
@@ -257,5 +306,6 @@
       </ul>
       <p>студия дизайна интерьера Метрика — 2023</p>
     </footer> -->
+    <script src="gallery.js"></script>
   </body>
 </html>

@@ -2,11 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   column-gap: 50px;
-  row-gap: 80px;
+  row-gap: 77px;
   padding-top: 32px;
 }
 
-.reviewBlock {
+.reviewItem {
   width: calc(50% - 25px);
 }
 
@@ -16,22 +16,22 @@
   padding-bottom: 14px;
 }
 
-.reviewBlock p {
+.reviewItem p {
   font-size: 22px;
   line-height: 30px;
 }
 
-.reviewBlock:last-child:nth-child(odd) {
+.reviewItem:last-child:nth-child(odd) {
   width: 75%;
 }
 
 @media (max-width: 1199px) {
   .reviewsList {
     column-gap: 10px;
-    row-gap: 80px;
+    row-gap: 77px;
   }
 
-  .reviewBlock {
+  .reviewItem {
     width: calc(50% - 5px);
   }
 
@@ -41,7 +41,7 @@
     padding-bottom: 25px;
   }
 
-  .reviewBlock p {
+  .reviewItem p {
     font-size: 20px;
     line-height: 27px;
   }
@@ -54,7 +54,7 @@
     padding-top: 23px;
   }
 
-  .reviewBlock {
+  .reviewItem {
     width: 100%;
   }
 
@@ -64,12 +64,12 @@
     padding-bottom: 10px;
   }
 
-  .reviewBlock p {
+  .reviewItem p {
     font-size: 16px;
     line-height: 22px;
   }
 
-  .reviewBlock:last-child:nth-child(odd) {
+  .reviewItem:last-child:nth-child(odd) {
     width: 100%;
   }
 }
