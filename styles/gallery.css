@@ -6,7 +6,7 @@
   position: absolute;
   top: 67px;
   width: 100%;
-  z-index: 100;
+  z-index: 5;
 }
 
 .galleryTitle {
@@ -57,7 +57,7 @@
   position: absolute;
   top: 518px;
   width: 100%;
-  z-index: 100;
+  z-index: 5;
 }
 
 .galleryControls {

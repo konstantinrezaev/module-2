@@ -10,6 +10,7 @@
 @import "../styles/buttons.css";
 @import "../styles/gallery.css";
 @import "../styles/heading.css";
+@import "../styles/popup.css";
 
 html {
   scroll-behavior: smooth;

@@ -7,6 +7,7 @@
   color: #ad1818;
   border: 1px solid #ad1818;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .allBtn:hover {
