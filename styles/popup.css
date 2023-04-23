@@ -29,7 +29,7 @@
   width: 777px;
   height: 708px;
   max-height: 100%;
-  padding: 94px 20px 85px;
+  padding: 94px 60px 75px;
   overflow-y: auto;
   color: #000;
   background-color: #fff;
@@ -56,7 +56,6 @@
   font-size: 18px;
   line-height: 25px;
   padding-top: 4px;
-  padding-bottom: 372px;
 }
 
 .popupSendBtn {
@@ -73,14 +72,34 @@
 }
 
 .popupSendBtn:hover {
+  padding: 18px 0;
   color: #ad1818;
   background: #fff;
   border: #ad1818 1px solid;
 }
 
+.inputWrapper {
+  padding-bottom: 75px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  font-size: 25px;
+  line-height: 50px;
+  padding-top: 50px;
+  opacity: 0.5;
+  border: none;
+  border-bottom: 1px #000 solid;
+}
+
+.input:focus {
+  outline: none;
+}
+
 @media (max-width: 767px) {
   .popup {
-    padding: 5px;
+    padding: 10px;
   }
 
   .popupContent {
@@ -107,10 +126,19 @@
     font-size: 14px;
     line-height: 19px;
     padding-top: 11px;
-    padding-bottom: 300px;
   }
 
   .popupSendBtn {
     max-width: 100%;
+  }
+
+  .input {
+    font-size: 18px;
+    line-height: 38px;
+    padding-top: 40px;
+  }
+
+  .inputWrapper {
+    padding-bottom: 60px;
   }
 }
