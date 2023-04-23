@@ -30,7 +30,7 @@
   height: 708px;
   max-height: 100%;
   padding: 94px 60px 75px;
-  overflow-y: auto;
+  overflow: auto;
   color: #000;
   background-color: #fff;
   border-radius: 10px;

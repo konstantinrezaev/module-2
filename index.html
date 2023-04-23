@@ -19,27 +19,35 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <!-- <header>
-      <img
-        class="headerLogo"
-        src="resources/metrika_logo.png"
-        alt="логотип компании Метрика"
-      />
-      <ul class="headerList">
-        <li class="headerLink">
-          <a href="#about">О нас</a>
-        </li>
-        <li class="headerLink">
-          <a href="#projects">Проекты</a>
-        </li>
-        <li class="headerLink">
-          <a href="#services">Услуги</a>
-        </li>
-        <li class="headerLink">
-          <a href="#contacts">Контакты</a>
-        </li>
-      </ul>
-    </header> -->
+    <header>
+      <section>
+        <div class="headerInner">
+          <img
+            class="headerLogo"
+            src="resources/metrika_logo.png"
+            alt="логотип компании Метрика"
+          />
+          <ul class="headerList">
+            <li>
+              <a class="headerLink" href="#about">О нас</a>
+            </li>
+            <li>
+              <a class="headerLink" href="#projects">Проекты</a>
+            </li>
+            <li>
+              <a class="headerLink" href="#services">Услуги</a>
+            </li>
+            <li>
+              <a class="headerLink" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+          <div class="jsBurgerBtn burgerBtn"></div>
+        </div>
+      </section>
+      <div class="jsBurger burger">
+        <div class="jsBurgerContent burgerContent"></div>
+      </div>
+    </header>
 
     <main>
       <section class="sectionPaddBottom">
@@ -155,23 +163,29 @@
             </li>
           </ul>
           <a class="allBtn allBtn_serviceBtn jsBtn">Заказать услугу</a>
-          <div class="jsPopup popup">
-            <div class="jsPopupContent popupContent">
-              <p class="popupTitle">Заказать услугу</p>
-              <p class="popupText">
-                Заполните форму, мы свяжемся с вами в течение суток
-              </p>
-              <div class="jsPopupCloseBtn popupCloseBtn"></div>
-              <div class="inputWrapper">
-                <input class="input" type="text" placeholder="Имя" />
-                <input
-                  class="input"
-                  type="text"
-                  placeholder="Электронная почта"
-                />
-                <input class="input" type="text" placeholder="Номер телефона" />
+          <div class="popupWrapper">
+            <div class="jsPopup popup">
+              <div class="jsPopupContent popupContent">
+                <p class="popupTitle">Заказать услугу</p>
+                <p class="popupText">
+                  Заполните форму, мы свяжемся с вами в течение суток
+                </p>
+                <div class="jsPopupCloseBtn popupCloseBtn"></div>
+                <div class="inputWrapper">
+                  <input class="input" type="text" placeholder="Имя" />
+                  <input
+                    class="input"
+                    type="text"
+                    placeholder="Электронная почта"
+                  />
+                  <input
+                    class="input"
+                    type="text"
+                    placeholder="Номер телефона"
+                  />
+                </div>
+                <a class="popupSendBtn">Отправить</a>
               </div>
-              <a class="popupSendBtn">Отправить</a>
             </div>
           </div>
         </section>
@@ -329,5 +343,6 @@
     </footer>
     <script src="gallery.js"></script>
     <script src="popup.js"></script>
+    <script src="burger.js"></script>
   </body>
 </html>

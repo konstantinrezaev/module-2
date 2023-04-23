@@ -1,0 +1,52 @@
+.burgerBtn {
+  display: none;
+}
+
+.burger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.burgerOpen {
+  opacity: 1;
+  visibility: visible;
+}
+
+.burgerContent {
+  position: relative;
+  width: 274px;
+  height: 612px;
+  overflow: auto;
+  color: #000;
+  background-color: #fff;
+  border-bottom-left-radius: 30px;
+}
+
+@media (max-width: 1199px) {
+  .burgerBtn {
+    position: absolute;
+    right: 40px;
+    z-index: 20;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+  }
+
+  .burgerBtnOpen {
+    background-color: red;
+  }
+}
+
+@media (max-width: 767px) {
+}

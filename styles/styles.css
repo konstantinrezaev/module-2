@@ -11,6 +11,7 @@
 @import "../styles/gallery.css";
 @import "../styles/heading.css";
 @import "../styles/popup.css";
+@import "../styles/burger.css";
 
 html {
   scroll-behavior: smooth;

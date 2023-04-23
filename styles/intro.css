@@ -1,6 +1,5 @@
 .introText {
   max-width: 956px;
-  padding-top: 70px;
   padding-bottom: 30px;
 }
 
@@ -23,7 +22,6 @@
 
 @media (max-width: 1199px) {
   .introText {
-    padding-top: 74px;
     max-width: 802px;
     font-size: 50px;
   }
@@ -44,7 +42,6 @@
   .introText {
     font-size: 30px;
     line-height: 32px;
-    padding-top: 61px;
     padding-bottom: 25px;
     width: 100%;
   }
