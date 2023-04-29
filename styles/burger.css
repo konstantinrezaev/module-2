@@ -13,7 +13,7 @@
   background-color: rgba(0, 0, 0, 0.9);
   opacity: 0;
   visibility: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
   z-index: 10;
 }
 
@@ -24,12 +24,20 @@
 
 .burgerContent {
   position: relative;
+  padding-top: 80px;
+  padding-left: 30px;
   width: 274px;
   height: 612px;
   overflow: auto;
   color: #000;
   background-color: #fff;
   border-bottom-left-radius: 30px;
+  transition: transform 0.2s linear;
+  transform: translateX(100%);
+}
+
+.burgerOpen .burgerContent {
+  transform: translateX(0);
 }
 
 @media (max-width: 1199px) {
@@ -39,8 +47,27 @@
     z-index: 20;
     display: block;
     width: 50px;
-    height: 50px;
-    background-color: blue;
+    height: 20px;
+  }
+
+  .burgerBtn:after,
+  .burgerBtn:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .burgerBtn:after {
+    width: 50px;
+    border: 2px solid #000000;
+  }
+
+  .burgerBtn:before {
+    width: 30px;
+    top: 6px;
+    border: 2px solid #000000;
   }
 
   .burgerBtnOpen {
