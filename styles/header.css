@@ -12,6 +12,7 @@ header {
 
 .headerLogo {
   width: 126px;
+  object-fit: contain;
 }
 
 .headerList {
