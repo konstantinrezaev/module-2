@@ -12,7 +12,9 @@ header {
 
 .headerLogo {
   width: 126px;
+  height: 21px;
   object-fit: contain;
+  background: url("../resources/metrika_logo.png");
 }
 
 .headerList {
@@ -36,10 +38,24 @@ header {
 }
 
 @media (max-width: 1199px) {
+  header {
+    padding-bottom: 74px;
+  }
+
   .headerList {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
+  header {
+    padding-top: 29px;
+    padding-bottom: 59px;
+  }
+
+  .headerLogo {
+    width: 96px;
+    height: 16px;
+    background: url("../resources/metrika_logo_mobile.png");
+  }
 }

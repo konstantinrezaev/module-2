@@ -91,9 +91,6 @@
     background-color: #000000;
   }
 
-  .burgerBtn:after {
-  }
-
   .burgerBtn:before {
     top: 6px;
     width: 30px;
@@ -117,4 +114,12 @@
 }
 
 @media (max-width: 767px) {
+  .burgerBtn:after {
+    width: 38px;
+  }
+
+  .burgerBtn:before {
+    top: 5px;
+    width: 24px;
+  }
 }

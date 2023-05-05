@@ -24,6 +24,7 @@
   .introText {
     max-width: 802px;
     font-size: 50px;
+    padding-bottom: 30px;
   }
 
   .introImage {
@@ -35,6 +36,7 @@
 
   .introImageText {
     bottom: 30px;
+    left: 42px;
   }
 }
 

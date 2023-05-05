@@ -1,4 +1,4 @@
-.contacts {
+.contactsWrapper {
   display: flex;
   position: relative;
   padding-top: 74px;
@@ -44,7 +44,7 @@
 }
 
 @media (max-width: 1199px) {
-  .contacts {
+  .contactsWrapper {
     padding-top: 74px;
     gap: 117px;
   }
@@ -56,7 +56,7 @@
 }
 
 @media (max-width: 767px) {
-  .contacts {
+  .contactsWrapper {
     flex-direction: column;
     padding-top: 58px;
     gap: 58px;
@@ -84,7 +84,7 @@
 }
 
 @media (max-width: 315px) {
-  .contacts {
+  .contactsWrapper {
     padding-top: 35px;
     gap: 35px;
   }

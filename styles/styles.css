@@ -35,16 +35,16 @@ main {
   background: #ffffff;
 }
 
-section {
+.container {
   margin: 0 auto;
   width: 1150px;
 }
 
-.sectionPaddTop {
+.containerPaddTop {
   padding-top: 150px;
 }
 
-.sectionPaddBottom {
+.containerPaddBottom {
   padding-bottom: 150px;
 }
 
@@ -55,30 +55,30 @@ section {
 }
 
 @media (max-width: 1199px) {
-  section {
+  .container {
     width: 100%;
     padding: 0 17px 0 15px;
   }
 
-  .sectionPaddTop {
+  .containerPaddTop {
     padding-top: 120px;
   }
 
-  .sectionPaddBottom {
+  .containerPaddBottom {
     padding-bottom: 120px;
   }
 }
 
 @media (max-width: 767px) {
-  section {
+  .container {
     padding: 0 12px 0 13px;
   }
 
-  .sectionPaddTop {
+  .containerPaddTop {
     padding-top: 80px;
   }
 
-  .sectionPaddBottom {
+  .containerPaddBottom {
     padding-bottom: 80px;
   }
 }
