@@ -43,7 +43,11 @@
   top: 44px;
   width: 30px;
   height: 30px;
+  background-color: #fff;
+  border: none;
   background-image: url(../resources/popupCloseBtn.png);
+  background-repeat: no-repeat;
+  background-position: center;
   cursor: pointer;
 }
 
@@ -64,10 +68,11 @@
   font-size: 20px;
   line-height: 27px;
   padding: 20px 0;
-  max-width: 644px;
+  width: 100%;
   color: #fff;
   background: #ad1818;
   border-radius: 5px;
+  border: none;
   cursor: pointer;
 }
 

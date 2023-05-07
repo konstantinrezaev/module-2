@@ -22,6 +22,12 @@ body {
   width: 100%;
 }
 
+button {
+  font-family: inherit;
+  letter-spacing: -0.03em;
+  cursor: pointer;
+}
+
 h1,
 h2,
 h3,

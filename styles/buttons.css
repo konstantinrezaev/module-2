@@ -1,7 +1,9 @@
 .allBtn {
   display: block;
   font-size: 30px;
-  padding: 60px 0;
+  line-height: 41px;
+  padding: 54px 0;
+  width: 100%;
   text-align: center;
   text-decoration: none;
   color: #ad1818;
