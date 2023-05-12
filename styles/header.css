@@ -32,8 +32,8 @@ header {
 }
 
 .headerLink:hover {
-  border-bottom: 1px solid #000;
   padding-bottom: 2px;
+  border-bottom: 1px solid #000;
   opacity: 0.5;
 }
 

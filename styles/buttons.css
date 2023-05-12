@@ -1,14 +1,14 @@
 .allBtn {
   display: block;
+  width: 100%;
+  padding: 54px 0;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
   font-size: 30px;
   line-height: 41px;
-  padding: 54px 0;
-  width: 100%;
   text-align: center;
   text-decoration: none;
   color: #ad1818;
-  border: 1px solid #ad1818;
-  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -32,9 +32,9 @@
 
 @media (max-width: 767px) {
   .allBtn {
-    font-size: 22px;
-    line-height: 29px;
     padding: 37px 0 33px;
     border-radius: 4px;
+    font-size: 22px;
+    line-height: 29px;
   }
 }

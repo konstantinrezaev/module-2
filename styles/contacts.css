@@ -1,8 +1,8 @@
 .contactsWrapper {
-  display: flex;
   position: relative;
-  padding-top: 74px;
+  display: flex;
   gap: 108px;
+  padding-top: 74px;
 }
 
 .contactTel:before,
@@ -33,11 +33,6 @@
   color: #121212;
 }
 
-/* .mail {
-  line-height: 40px;
-  border-bottom: 2px solid #121212;
-} */
-
 .tel:hover,
 .mail:hover {
   opacity: 0.5;
@@ -63,17 +58,17 @@
   }
 
   .contactTel:before {
+    top: 21px;
     width: 10px;
     height: 17px;
     background-size: cover;
-    top: 21px;
   }
 
   .contactMail:before {
+    top: 123px;
     width: 18px;
     height: 18px;
     background-size: cover;
-    top: 123px;
   }
 
   .tel,
@@ -90,17 +85,17 @@
   }
 
   .contactTel:before {
+    top: 10px;
     width: 10px;
     height: 17px;
     background-size: cover;
-    top: 10px;
   }
 
   .contactMail:before {
+    top: 75px;
     width: 18px;
     height: 18px;
     background-size: cover;
-    top: 75px;
   }
 
   .tel,

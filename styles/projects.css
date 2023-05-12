@@ -41,9 +41,9 @@
   }
 
   .projectItem p {
+    margin-bottom: 10px;
     font-size: 25px;
     line-height: 34px;
-    margin-bottom: 10px;
   }
 
   .projectItem a {
@@ -74,9 +74,9 @@
   }
 
   .projectItem p {
+    margin-bottom: 11px;
     font-size: 18px;
     line-height: 25px;
-    margin-bottom: 11px;
   }
 
   .projectItem a {

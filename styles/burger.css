@@ -6,15 +6,16 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
   width: 100%;
   height: 100%;
   display: flex;
+  overflow: auto;
   justify-content: end;
-  background-color: rgba(0, 0, 0, 0.9);
   opacity: 0;
   visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.9);
   transition: all 0.4s ease;
-  z-index: 10;
 }
 
 .burgerOpen {
@@ -23,16 +24,15 @@
 }
 
 .burgerContent {
+  display: flex;
+  flex-direction: column;
   padding-top: 80px;
   padding-left: 30px;
   width: 274px;
   height: 612px;
-  display: flex;
-  flex-direction: column;
-  overflow: auto;
+  border-bottom-left-radius: 30px;
   color: #000;
   background-color: #fff;
-  border-bottom-left-radius: 30px;
   transition: transform 0.2s linear;
   transform: translateX(100%);
 }
@@ -47,10 +47,10 @@
 }
 
 .burgerList {
-  padding-bottom: 90px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-bottom: 90px;
 }
 
 .burgerLink {
@@ -59,10 +59,10 @@
 }
 
 .burgerContacts {
+  padding-bottom: 8px;
   font-size: 16px;
   line-height: 22px;
   opacity: 0.5;
-  padding-bottom: 8px;
 }
 
 .burgerTel,
@@ -100,11 +100,11 @@
     position: absolute;
     top: 0px;
     right: 20px;
+    z-index: 20;
     width: 20px;
     background: url(../resources/burger_close.png);
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: 20;
   }
 
   .burgerBtnOpen:after,

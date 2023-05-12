@@ -1,6 +1,6 @@
 .introText {
-  max-width: 956px;
   padding-bottom: 30px;
+  max-width: 956px;
 }
 
 .introImage {
@@ -14,17 +14,17 @@
   position: absolute;
   left: 40px;
   bottom: 40px;
+  max-width: 430px;
   font-size: 20px;
   line-height: 27px;
   color: #ffffff;
-  max-width: 430px;
 }
 
 @media (max-width: 1199px) {
   .introText {
     max-width: 802px;
-    font-size: 50px;
     padding-bottom: 30px;
+    font-size: 50px;
   }
 
   .introImage {
@@ -42,10 +42,10 @@
 
 @media (max-width: 767px) {
   .introText {
+    width: 100%;
+    padding-bottom: 25px;
     font-size: 30px;
     line-height: 32px;
-    padding-bottom: 25px;
-    width: 100%;
   }
 
   .introImage {
@@ -56,9 +56,9 @@
   .introImageText {
     left: 15px;
     bottom: 15px;
+    max-width: 312px;
     font-size: 16px;
     line-height: 22px;
-    max-width: 312px;
   }
 }
 

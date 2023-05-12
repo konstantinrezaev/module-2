@@ -1,62 +1,62 @@
 .aboutText {
-  font-size: 45px;
-  line-height: 61px;
   width: 1048px;
   padding-top: 30px;
   padding-bottom: 29px;
+  font-size: 45px;
+  line-height: 61px;
 }
 
 .aboutBtn {
   display: inline-block;
-  font-size: 20px;
-  line-height: 27px;
   padding: 20px 40px;
-  background: #ad1818;
   border-radius: 5px;
   border: 1px solid #ad1818;
+  font-size: 20px;
+  line-height: 27px;
+  background: #ad1818;
   color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 }
 
 .aboutBtn:hover {
+  border: 1px solid #ad1818;
   color: #ad1818;
   background-color: #ffffff;
-  border: 1px solid #ad1818;
 }
 
 @media (max-width: 1199px) {
   .aboutText {
-    font-size: 35px;
-    line-height: 48px;
     width: 690px;
     padding-left: 3px;
+    font-size: 35px;
+    line-height: 48px;
   }
 }
 
 @media (max-width: 767px) {
   .aboutText {
-    font-size: 22px;
-    line-height: 30px;
     width: 100%;
     padding-top: 20px;
     padding-left: 0;
+    font-size: 22px;
+    line-height: 30px;
   }
 
   .about a {
     width: 100%;
-    font-size: 16px;
-    line-height: 20px;
     padding: 14.5px 0;
     border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .aboutBtn {
-    font-size: 16px;
-    line-height: 22px;
     width: 100%;
-    text-align: center;
     padding: 13px 27px;
     border-radius: 4px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
   }
 }

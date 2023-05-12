@@ -11,9 +11,9 @@
 }
 
 .reviewTitle {
+  padding-bottom: 14px;
   font-size: 45px;
   line-height: 61px;
-  padding-bottom: 14px;
 }
 
 .reviewItem p {
@@ -36,9 +36,9 @@
   }
 
   .reviewTitle {
+    padding-bottom: 25px;
     font-size: 35px;
     line-height: 48px;
-    padding-bottom: 25px;
   }
 
   .reviewItem p {
@@ -59,9 +59,9 @@
   }
 
   .reviewTitle {
+    padding-bottom: 10px;
     font-size: 25px;
     line-height: 34px;
-    padding-bottom: 10px;
   }
 
   .reviewItem p {

@@ -6,6 +6,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
   width: 100%;
   height: 100%;
   display: flex;
@@ -16,7 +17,6 @@
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
-  z-index: 10;
 }
 
 .popupOpen {
@@ -30,10 +30,10 @@
   height: 708px;
   max-height: 100%;
   padding: 94px 60px 75px;
+  border-radius: 10px;
   overflow: auto;
   color: #000;
   background-color: #fff;
-  border-radius: 10px;
   text-align: center;
 }
 
@@ -43,8 +43,8 @@
   top: 44px;
   width: 30px;
   height: 30px;
-  background-color: #fff;
   border: none;
+  background-color: #fff;
   background-image: url(../resources/popupCloseBtn.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -57,30 +57,30 @@
 }
 
 .popupText {
+  padding-top: 4px;
   font-size: 18px;
   line-height: 25px;
-  padding-top: 4px;
 }
 
 .popupSendBtn {
   display: block;
-  margin: 0 auto;
-  font-size: 20px;
-  line-height: 27px;
-  padding: 20px 0;
   width: 100%;
-  color: #fff;
-  background: #ad1818;
+  margin: 0 auto;
+  padding: 20px 0;
   border-radius: 5px;
   border: none;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+  background: #ad1818;
   cursor: pointer;
 }
 
 .popupSendBtn:hover {
   padding: 18px 0;
+  border: #ad1818 1px solid;
   color: #ad1818;
   background: #fff;
-  border: #ad1818 1px solid;
 }
 
 .inputWrapper {
@@ -90,12 +90,12 @@
 .input {
   display: block;
   width: 100%;
-  font-size: 25px;
-  line-height: 50px;
   padding-top: 50px;
-  opacity: 0.5;
   border: none;
   border-bottom: 1px #000 solid;
+  font-size: 25px;
+  line-height: 50px;
+  opacity: 0.5;
 }
 
 .input:focus {
@@ -128,9 +128,9 @@
   }
 
   .popupText {
+    padding-top: 11px;
     font-size: 14px;
     line-height: 19px;
-    padding-top: 11px;
   }
 
   .popupSendBtn {
@@ -138,9 +138,9 @@
   }
 
   .input {
+    padding-top: 40px;
     font-size: 18px;
     line-height: 38px;
-    padding-top: 40px;
   }
 
   .inputWrapper {

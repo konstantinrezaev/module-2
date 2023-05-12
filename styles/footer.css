@@ -21,12 +21,12 @@
 }
 
 .footerText {
-  text-align: center;
-  font-size: 20px;
-  line-height: 27px;
-  opacity: 0.5;
   padding-bottom: 30px;
   padding-left: 6px;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
@@ -43,9 +43,9 @@
   }
 
   .footerText {
-    font-size: 13px;
-    line-height: 18px;
     padding-bottom: 26px;
     padding-left: 0;
+    font-size: 13px;
+    line-height: 18px;
   }
 }

@@ -18,8 +18,8 @@ html {
 }
 
 body {
-  font-family: "Manrope", sans-serif;
   width: 100%;
+  font-family: "Manrope", sans-serif;
 }
 
 button {
@@ -42,8 +42,8 @@ main {
 }
 
 .container {
-  margin: 0 auto;
   width: 1150px;
+  margin: 0 auto;
 }
 
 .containerPaddTop {
@@ -55,9 +55,9 @@ main {
 }
 
 .containerBlack {
+  width: 100%;
   background-color: #121212;
   color: #ffffff;
-  width: 100%;
 }
 
 @media (max-width: 1199px) {
